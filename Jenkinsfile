@@ -1,5 +1,5 @@
 pipeline {
-  agent { label: 'jdk21' }
+  agent { label 'jdk21' }
   stages {
     stage('Stage1') {
       steps {
