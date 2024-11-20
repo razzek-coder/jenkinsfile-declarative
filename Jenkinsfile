@@ -22,4 +22,10 @@ pipeline {
       }
     }
   }
+
+  post {
+    always {
+      echo 'al final'
+    }
+  }
 }
