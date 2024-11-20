@@ -15,6 +15,11 @@ pipeline {
       steps {
         bat 'mvn --version'
       }
+      post {
+        always {
+          echo 'dentro de stage 2'
+        }
+      }
     }
     stage('Stage3') {
       steps {
