@@ -13,7 +13,7 @@ pipeline {
     }
     stage('Stage2') {
       steps {
-        echo 'Ejecucion stage 2'
+        bat 'mvn --version'
       }
     }
     stage('Stage3') {
